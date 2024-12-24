@@ -1,20 +1,13 @@
 class Solution {
-  public static boolean[] v;
-    
-  public static boolean canReach(int[] arr, int start) {
-    int len = arr.length;
-    v = new boolean[len];
-    return dfs(arr, start);
-  }
-
-  public static boolean dfs(int[] arr, int start) {
-    if (start < 0 || start >= arr.length || v[start]) {
+  public Set<Integer> visited = new HashSet<>();
+  public boolean canReach(int[] arr, int start) {
+    if(start >= arr.length || start < 0 || visited.contains(start)){
       return false;
     }
-    if (arr[start] == 0) {
+    if(arr[start] == 0){
       return true;
     }
-    v[start] = true;
-    return dfs(arr, start + arr[start]) || dfs(arr, start - arr[start]);
+    visited.add(start);
+    return canReach(arr, start + arr[start]) || canReach(arr, start - arr[start]);
   }
 }
