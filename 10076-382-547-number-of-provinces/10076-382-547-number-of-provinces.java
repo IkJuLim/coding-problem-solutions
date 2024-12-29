@@ -6,10 +6,8 @@ class Solution {
       nodes.add(i);
     }
     while (!nodes.isEmpty()){
-      for(int i = 0; i < isConnected.length; i++){
-        if(dfs(i, isConnected)){
-          ret++;
-        }
+      if(dfs(nodes.get(0), isConnected)){
+        ret++;
       }
     }
     return ret;
