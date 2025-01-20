@@ -9,6 +9,7 @@ class Solution {
         if (sum == 0) {
           ret.add(Arrays.asList(nums[l], nums[i], nums[r]));
           r--;
+          l++;
         } else if (sum > 0) {
           r--;
         } else {
@@ -17,7 +18,7 @@ class Solution {
       }
 
     }
-    
+
     return new ArrayList<>(ret);
   }
 }
