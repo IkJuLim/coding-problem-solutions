@@ -7,7 +7,6 @@ class BrowserHistory {
     history = new LinkedList<>();
     history.add(homepage);
     idx = 0;
-    System.out.println(idx);
   }
 
   public void visit(String url) {
@@ -20,18 +19,15 @@ class BrowserHistory {
     while (idx + 1 < history.size()) {
       history.remove(idx + 1);
     }
-    System.out.println(idx);
   }
 
   public String back(int steps) {
     idx -= Math.min(idx, steps);
-    System.out.println(idx);
     return history.get(idx);
   }
 
   public String forward(int steps) {
     idx = Math.min(idx + steps, history.size() - 1);
-    System.out.println(idx);
     return history.get(idx);
   }
 }
