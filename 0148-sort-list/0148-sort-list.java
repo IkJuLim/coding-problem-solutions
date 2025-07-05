@@ -1,65 +1,39 @@
 class Solution {
     public ListNode sortList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
-        ListNode tmpNode = head;
-        int cnt = 1;
+        if (head == null || head.next == null) return head;
 
-        while (tmpNode.next != null) {
-            cnt++;
-            tmpNode = tmpNode.next;
+        ListNode slow = head, fast = head, prev = null;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        ListNode returnNode = sortList(head, cnt);
-        return returnNode;
+
+        prev.next = null;
+
+        ListNode l1 = sortList(head);
+        ListNode l2 = sortList(slow);
+
+        return merge(l1, l2);
     }
 
-    public ListNode sortList(ListNode list, int n) {
-        if (n == 0) {
-            return null;
-        }
-        if (n == 1) {
-            list.next = null;
-            return list;
-        }
-        ListNode firstList = list;
-        ListNode lastList = list;
-        for (int i = 0; i < n / 2; i++) {
-            lastList = lastList.next;
-        }
+    private ListNode merge(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
 
-        ListNode firstReturnList = sortList(firstList, n / 2);
-        ListNode lastReturnList = sortList(lastList, n - n / 2);
-
-        ListNode lastNode = null;
-        ListNode returnNode = null;
-        while (firstReturnList != null || lastReturnList != null) {
-            ListNode tmpNode = null;
-            if (firstReturnList == null) {
-                tmpNode = lastReturnList;
-                lastReturnList = lastReturnList.next;
-            } else if (lastReturnList == null) {
-                tmpNode = firstReturnList;
-                firstReturnList = firstReturnList.next;
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
             } else {
-                if (firstReturnList.val >= lastReturnList.val) {
-                    tmpNode = lastReturnList;
-                    lastReturnList = lastReturnList.next;
-                }
-                else {
-                    tmpNode = firstReturnList;
-                    firstReturnList = firstReturnList.next;
-                }
+                curr.next = l2;
+                l2 = l2.next;
             }
-
-            if (returnNode == null) {
-                returnNode = tmpNode;
-                lastNode = tmpNode;
-            }
-            lastNode.next = tmpNode;
-            lastNode = lastNode.next;
+            curr = curr.next;
         }
-        lastNode.next = null;
-        return returnNode;
+
+        curr.next = (l1 != null) ? l1 : l2;
+
+        return dummy.next;
     }
 }
