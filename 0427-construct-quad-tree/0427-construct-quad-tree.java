@@ -9,7 +9,6 @@ class Solution {
             return new Node(grid[topLeft_x][topLeft_y] == 1, true);
         }
         boolean isLeaf = true;
-        boolean val = grid[topLeft_x][topLeft_y] == 1;
         for (int i = topLeft_x; i < bottomRight_x; i++) {
             for (int j = topLeft_y; j < bottomRight_y; j++) {
                 if (grid[topLeft_x][topLeft_y] != grid[i][j]) {
@@ -18,10 +17,10 @@ class Solution {
             }
         }
 
-        Node node = null;
+        Node node;
 
         if (!isLeaf) {
-            node = new Node(val, isLeaf,
+            node = new Node(grid[topLeft_x][topLeft_y] == 1, isLeaf,
                     construct(grid,
                             topLeft_x,
                             topLeft_y,
@@ -44,7 +43,7 @@ class Solution {
                             bottomRight_y)
             );
         } else {
-            node = new Node(val, isLeaf);
+            node = new Node(grid[topLeft_x][topLeft_y] == 1, isLeaf);
         }
 
         return node;
