@@ -1,7 +1,6 @@
 class Solution {
     public Node construct(int[][] grid) {
-        Node node = construct(grid, 0, 0, grid.length, grid[grid.length-1].length);
-        return node;
+        return construct(grid, 0, 0, grid.length, grid[grid.length-1].length);
     }
 
     public Node construct(int[][] grid, int topLeft_x, int topLeft_y, int bottomRight_x, int bottomRight_y) {
