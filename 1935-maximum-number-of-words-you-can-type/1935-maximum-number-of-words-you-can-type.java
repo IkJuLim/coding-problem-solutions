@@ -1,20 +1,21 @@
 class Solution {
-    public int canBeTypedWords(String text, String brokenLetters){ 
-        Set<Character> set = new HashSet<>();
-        int cnt = 0;
-        String arr[] = text.split("\\s");
+    public int canBeTypedWords(String text, String brokenLetters) {
+        int ans = 0;
+        boolean[] broken = new boolean[26];
 
-        for(char ch : brokenLetters.toCharArray())   set.add(ch);
+        for (final char c : brokenLetters.toCharArray())
+            broken[c - 'a'] = true;
 
-        for(String str : arr){
-            for(char ch : str.toCharArray()){
-                if(set.contains(ch)){
-                    cnt++;
-                    break;
-                }
-            }
-        }
+        for (final String word : text.split(" "))
+            ans += canBeTyped(word, broken);
 
-        return arr.length - cnt;
+        return ans;
+    }
+
+    private int canBeTyped(final String word, boolean[] broken) {
+        for (final char c : word.toCharArray())
+            if (broken[c - 'a'])
+                return 0;
+        return 1;
     }
 }
