@@ -1,16 +1,20 @@
 class Solution {
     public int canBeTypedWords(String text, String brokenLetters){ 
-        List<String> words = new ArrayList<>(Arrays.asList(text.split(" ")));
-        if (!brokenLetters.equals("")) {
-            for (String brokenLetter : brokenLetters.split("")) {
-                for (int i = 0; i < words.size(); i++) {
-                    if (words.get(i).contains(brokenLetter)) {
-                        words.remove(words.get(i));
-                        i--;
-                    }
+        Set<Character> set = new HashSet<>();
+        int cnt = 0;
+        String arr[] = text.split("\\s");
+
+        for(char ch : brokenLetters.toCharArray())   set.add(ch);
+
+        for(String str : arr){
+            for(char ch : str.toCharArray()){
+                if(set.contains(ch)){
+                    cnt++;
+                    break;
                 }
             }
         }
-        return words.size();
+
+        return arr.length - cnt;
     }
 }
