@@ -2,7 +2,7 @@ class WordDictionary {
   List<String> words;
 
   public WordDictionary() {
-    words = new LinkedList<>();
+    words = new ArrayList<>();
   }
 
   public void addWord(String word) {
