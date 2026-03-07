@@ -12,6 +12,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -50,4 +51,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
