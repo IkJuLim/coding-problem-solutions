@@ -1,8 +1,7 @@
 class Solution {
     public String getHint(String secret, String guess) {
-        StringBuilder sb = new StringBuilder();
         int bulls = 0, cows = 0;
-        int[] cnt = new int[26];
+        int[] cnt = new int[10];
         for (char c : secret.toCharArray()) cnt[c - '0']++;
 
         for (int i = 0; i < guess.length(); i++) {
@@ -19,7 +18,8 @@ class Solution {
                 cows--;
             }
         }
-        sb.append(bulls);
+
+        StringBuilder sb = new StringBuilder(bulls);
         sb.append('A');
         sb.append(cows);
         sb.append('B');
