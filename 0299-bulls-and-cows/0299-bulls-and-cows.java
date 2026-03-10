@@ -19,7 +19,8 @@ class Solution {
             }
         }
 
-        StringBuilder sb = new StringBuilder(bulls);
+        StringBuilder sb = new StringBuilder();
+        sb.append(bulls);
         sb.append('A');
         sb.append(cows);
         sb.append('B');
