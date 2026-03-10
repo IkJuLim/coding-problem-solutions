@@ -7,16 +7,19 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 ## Array
