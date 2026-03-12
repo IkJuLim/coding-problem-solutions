@@ -50,10 +50,12 @@
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0024-swap-nodes-in-pairs](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0024-swap-nodes-in-pairs/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0024-swap-nodes-in-pairs/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
