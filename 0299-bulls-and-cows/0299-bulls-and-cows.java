@@ -27,3 +27,4 @@ class Solution {
         return sb.toString();
     }
 }
+// 숫자별 카운팅 배열 만들고 한자리씩 돌면서 카우랑 불을 더하고 빼는식으로 만들었습니다
