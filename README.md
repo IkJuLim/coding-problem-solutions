@@ -16,6 +16,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
+| [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -45,6 +46,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -91,4 +93,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
 <!---LeetCode Topics End-->
