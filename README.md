@@ -28,6 +28,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
+| [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
@@ -72,6 +73,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
 | [1774-closest-dessert-cost](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1774-closest-dessert-cost/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
