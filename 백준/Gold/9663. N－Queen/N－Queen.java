@@ -32,8 +32,7 @@ public class Main {
 
     private static boolean isPosable(int row, int col) {
         for (int i = 0; i < row; i++) {
-            if (i == row ||
-                    queens[i] == col ||
+            if (queens[i] == col ||
                     i + queens[i] == row + col ||
                     i - queens[i] == row - col)
                 return false;
