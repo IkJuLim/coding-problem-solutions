@@ -2,52 +2,53 @@ class Solution {
     List<List<String>> ret;
     public List<List<String>> solveNQueens(int n) {
         ret = new ArrayList<>();
-        List<List<Integer>> queens = new ArrayList<>();
-        recall(n, queens, 0);
+        makeRet(n, 0, new HashSet<>(), new HashSet<>(), new HashSet<>(), new ArrayList<>());
 
         return ret;
     }
 
-    private void recall(int n, List<List<Integer>> queens, int row) {
-        if (row >= n && queens.size() == n) {
-            List<String> sl = getStrings(n, queens);
-            ret.add(sl);
+    private void makeRet(int n, int row, Set<Integer> cols, Set<Integer> diags, Set<Integer> revDiags, List<Integer> queensCol) {
+        if (row == n) {
+            addRetString(n, queensCol);
         }
+
         for (int col = 0; col < n; col++) {
-            if (isPosable(queens, row, col)) {
-                queens.add(List.of(row, col));
-                recall(n, queens, row + 1);
-                queens.removeLast();
+            if (isValid(row, col, cols, diags, revDiags)) {
+                cols.add(col);
+                diags.add(row + col);
+                revDiags.add(row - col);
+                queensCol.add(col);
+                makeRet(n, row + 1, cols, diags, revDiags, queensCol);
+                cols.remove(col);
+                diags.remove(row + col);
+                revDiags.remove(row - col);
+                queensCol.removeLast();
             }
         }
     }
 
-    private static List<String> getStrings(int n, List<List<Integer>> queens) {
-        List<String> sl = new ArrayList<>();
-        for (int row = 0; row < queens.size(); row++) {
-            List<Integer> queen = queens.get(row);
+    private void addRetString(int n, List<Integer> queensCol) {
+        ArrayList<String> list = new ArrayList<>();
+        for (int queenCol : queensCol) {
             StringBuilder sb = new StringBuilder();
-            for (int col = 0; col < n; col++) {
-                if (queen.get(0) == row && queen.get(1) == col) {
-                    sb.append('Q');
-                } else {
-                    sb.append('.');
-                }
+            for (int i = 0; i < n; i++) {
+                sb.append((i != queenCol) ? '.' : 'Q');
             }
-            sl.add(sb.toString());
+            list.add(sb.toString());
         }
-        return sl;
+        ret.add(list);
     }
 
-    private boolean isPosable(List<List<Integer>> queens, int row, int col) {
-        for (List<Integer> queen : queens) {
-            if (queen.get(0) == row ||
-                    queen.get(1) == col ||
-                    queen.get(0) + queen.get(1) == row + col ||
-                    queen.get(0) - queen.get(1) == row - col)
-                return false;
+    private boolean isValid(int row, int col, Set<Integer> cols, Set<Integer> diags, Set<Integer> revDiags) {
+        if (cols.contains(col)) {
+            return false;
+        }
+        if (diags.contains(row + col)) {
+            return false;
+        }
+        if (revDiags.contains(row - col)) {
+            return false;
         }
         return true;
     }
-
 }
