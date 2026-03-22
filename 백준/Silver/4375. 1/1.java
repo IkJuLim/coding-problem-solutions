@@ -1,25 +1,29 @@
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        while(sc.hasNextInt()){
-            int target = sc.nextInt();
-            func(target);
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line;
+        while ((line = br.readLine()) != null) {
+            solution(Integer.valueOf(line.trim()));
         }
     }
-    public static void func(int target){
-        if(target == 1) {
+
+    private static void solution(int tar) {
+        if (tar == 1) {
             System.out.println(1);
             return;
         }
-        int num = 1;
-        for(int i = 2; true; i++){
-            num = (num * 10 + 1) % target;
-            if (num % target == 0) {
-                System.out.println(i);
-                break;
+        int num = 1, len = 2;
+        while (true) {
+            num = (num * 10 + 1) % tar;
+            if (num % tar == 0) {
+                System.out.println(len);
+                return;
             }
+            len++;
         }
     }
 }
