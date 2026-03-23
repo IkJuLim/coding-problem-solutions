@@ -27,6 +27,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
 | [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
@@ -78,6 +79,7 @@
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
@@ -103,4 +105,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0004-median-of-two-sorted-arrays/) | Hard |
 <!---LeetCode Topics End-->
