@@ -1,43 +1,54 @@
 class Solution {
-  List<List<String>> res;
-  public List<List<String>> solveNQueens(int n) {
-    res = new ArrayList<>();
+    List<List<String>> ret;
+    public List<List<String>> solveNQueens(int n) {
+        ret = new ArrayList<>();
+        makeRet(n, 0, new HashSet<>(), new HashSet<>(), new HashSet<>(), new ArrayList<>());
 
-    List<List<Integer>> queens = new ArrayList<>();
-    recallII(n, queens, 0);
+        return ret;
+    }
 
-    return res;
-  }
-
-  private void recallII(int n, List<List<Integer>> queens, int x) {
-    if (x >= n && queens.size() == n) {
-      List<String> sl = new ArrayList<>();
-      for (List<Integer> queen : queens) {
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 0; i < n; i++) {
-          sb.append(i == queen.get(1) ? 'Q' : '.');
+    private void makeRet(int n, int row, Set<Integer> cols, Set<Integer> diags, Set<Integer> revDiags, List<Integer> queensCol) {
+        if (row == n) {
+            addRetString(n, queensCol);
         }
 
-        sl.add(sb.toString());
-      }
-      res.add(sl);
-      return;
+        for (int col = 0; col < n; col++) {
+            if (isValid(row, col, cols, diags, revDiags)) {
+                cols.add(col);
+                diags.add(row + col);
+                revDiags.add(row - col);
+                queensCol.add(col);
+                makeRet(n, row + 1, cols, diags, revDiags, queensCol);
+                cols.remove(col);
+                diags.remove(row + col);
+                revDiags.remove(row - col);
+                queensCol.removeLast();
+            }
+        }
     }
-    for (int y = 0; y < n; y++) {
-      if (isPossible(queens, x, y)) {
-        queens.add(List.of(x, y));
-        recallII(n, queens, x + 1);
-        queens.remove(queens.size() - 1);
-      }
-    }
-  }
 
-  private boolean isPossible(List<List<Integer>> queens, int x, int y) {
-    for (List<Integer> queen : queens) {
-      if (queen.get(1) == y || queen.get(1) - queen.get(0) == y - x || queen.get(1) + queen.get(0) == y + x)
-        return false;
+    private void addRetString(int n, List<Integer> queensCol) {
+        ArrayList<String> list = new ArrayList<>();
+        for (int queenCol : queensCol) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < n; i++) {
+                sb.append((i != queenCol) ? '.' : 'Q');
+            }
+            list.add(sb.toString());
+        }
+        ret.add(list);
     }
-    return true;
-  }
+
+    private boolean isValid(int row, int col, Set<Integer> cols, Set<Integer> diags, Set<Integer> revDiags) {
+        if (cols.contains(col)) {
+            return false;
+        }
+        if (diags.contains(row + col)) {
+            return false;
+        }
+        if (revDiags.contains(row - col)) {
+            return false;
+        }
+        return true;
+    }
 }
