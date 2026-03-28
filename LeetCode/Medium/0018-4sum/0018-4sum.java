@@ -12,6 +12,7 @@ class Solution {
                 while (start < end) {
                     if (tar == nums[start] + nums[end]) {
                         ret.add(List.of(nums[idx1], nums[idx2], nums[start], nums[end]));
+                        start++;
                         end--;
                     } else if (tar > nums[start] + nums[end]) {
                         start++;
