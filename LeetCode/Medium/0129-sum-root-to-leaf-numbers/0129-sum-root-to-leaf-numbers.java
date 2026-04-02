@@ -2,11 +2,11 @@ class Solution {
     int ret;
     public int sumNumbers(TreeNode root) {
         ret = 0;
-        calc(root, 0);
+        dfs(root, 0);
         return ret;
     }
 
-    private void calc(TreeNode currNode, int currSum) {
+    private void dfs(TreeNode currNode, int currSum) {
         if (currNode == null) {
             return;
         }
@@ -17,7 +17,7 @@ class Solution {
             return;
         }
 
-        calc(currNode.left, currSum);
-        calc(currNode.right, currSum);
+        dfs(currNode.left, currSum);
+        dfs(currNode.right, currSum);
     }
 }
