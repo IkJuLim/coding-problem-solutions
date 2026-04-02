@@ -9,6 +9,7 @@
 | ------- | ------- |
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/3185-count-pairs-that-form-a-complete-day-ii/) | Medium |
@@ -121,14 +122,17 @@
 | ------- | ------- |
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 <!---LeetCode Topics End-->
