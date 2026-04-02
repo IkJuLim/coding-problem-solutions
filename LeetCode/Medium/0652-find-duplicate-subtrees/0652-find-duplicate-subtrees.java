@@ -15,7 +15,7 @@ class Solution {
         if (root == null) {
             return "";
         }
-        String pathStr = root.val + "(" + dfs(root.left) + ")" + "(" + dfs(root.right) + ")";
+        String pathStr = root.val + "(" + dfs(root.left) + ")(" + dfs(root.right) + ")";
         map.put(pathStr, map.getOrDefault(pathStr, 0) + 1);
         if (map.get(pathStr) == 2) {
             ret.add(root);
