@@ -7,11 +7,9 @@ class Solution {
         map = new HashMap<>();
 
         for (int i = 0; i < keyName.length; i++) {
-            int[] parseTime = Arrays.stream(keyTime[i].split(":"))
-                    .mapToInt(Integer::parseInt)
-                    .toArray();
+            int time = ((keyTime[i].charAt(0) - '0') * 10 + (keyTime[i].charAt(1) - '0')) * 60 + (keyTime[i].charAt(3) - '0') * 10 + (keyTime[i].charAt(4) - '0');
             List<Integer> list = map.getOrDefault(keyName[i], new ArrayList<>());
-            list.add(parseTime[0] * 60 + parseTime[1]);
+            list.add(time);
             map.put(keyName[i], list);
         }
 
