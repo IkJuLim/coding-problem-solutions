@@ -12,6 +12,7 @@
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
+| [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/3185-count-pairs-that-form-a-complete-day-ii/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -20,6 +21,7 @@
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
+| [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -37,6 +39,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
+| [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 | [1774-closest-dessert-cost](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1774-closest-dessert-cost/) | Medium |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/3185-count-pairs-that-form-a-complete-day-ii/) | Medium |
 ## Sorting
@@ -46,6 +49,7 @@
 | [0018-4sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0018-4sum/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
+| [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
