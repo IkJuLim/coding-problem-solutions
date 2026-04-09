@@ -41,6 +41,7 @@
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 | [1774-closest-dessert-cost](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1774-closest-dessert-cost/) | Medium |
+| [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/3185-count-pairs-that-form-a-complete-day-ii/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -76,6 +77,7 @@
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0018-4sum/) | Medium |
+| [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -139,4 +141,8 @@
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 <!---LeetCode Topics End-->
