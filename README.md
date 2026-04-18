@@ -41,6 +41,7 @@
 | [0018-4sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0018-4sum/) | Medium |
 | [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
 | [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
@@ -141,6 +142,7 @@
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -150,9 +152,18 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 <!---LeetCode Topics End-->
