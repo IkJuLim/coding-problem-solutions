@@ -12,6 +12,7 @@
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
+| [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1781-sum-of-beauty-of-all-substrings/) | Medium |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/3185-count-pairs-that-form-a-complete-day-ii/) | Medium |
@@ -42,6 +43,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
+| [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
 | [1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1604-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | Medium |
 | [1774-closest-dessert-cost](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1774-closest-dessert-cost/) | Medium |
 | [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
@@ -126,6 +128,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0004-median-of-two-sorted-arrays/) | Hard |
+| [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -148,4 +151,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
 <!---LeetCode Topics End-->
