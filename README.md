@@ -20,6 +20,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1347-minimum-number-of-steps-to-make-two-strings-anagram/) | Medium |
@@ -40,6 +41,7 @@
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0018-4sum/) | Medium |
 | [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
+| [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
@@ -96,6 +98,7 @@
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
+| [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [1774-closest-dessert-cost](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1774-closest-dessert-cost/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -156,6 +159,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 ## Simulation
@@ -170,4 +174,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 <!---LeetCode Topics End-->
