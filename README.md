@@ -41,6 +41,7 @@
 | [0016-3sum-closest](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0018-4sum/) | Medium |
 | [0051-n-queens](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0051-n-queens/) | Hard |
+| [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -147,6 +148,7 @@
 | [0113-path-sum-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0113-path-sum-ii/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0129-sum-root-to-leaf-numbers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Binary Tree
@@ -159,6 +161,7 @@
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1861-rotating-the-box](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
@@ -169,10 +172,12 @@
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
