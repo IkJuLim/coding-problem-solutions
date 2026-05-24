@@ -44,6 +44,7 @@
 | [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
+| [1004-max-consecutive-ones-iii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1424-diagonal-traverse-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1424-diagonal-traverse-ii/) | Medium |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/IkJuLim/coding-problem-solutions/tree/main/1481-least-number-of-unique-integers-after-k-removals/) | Medium |
@@ -134,6 +135,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0004-median-of-two-sorted-arrays/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 | [1562-find-latest-group-of-size-m](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1562-find-latest-group-of-size-m/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -183,4 +185,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
 <!---LeetCode Topics End-->
