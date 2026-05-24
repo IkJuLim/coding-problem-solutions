@@ -7,6 +7,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0127-word-ladder/) | Hard |
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 | [0652-find-duplicate-subtrees](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0652-find-duplicate-subtrees/) | Medium |
@@ -20,6 +21,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0127-word-ladder](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0127-word-ladder/) | Hard |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
 | [0299-bulls-and-cows](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0299-bulls-and-cows/) | Medium |
 | [0402-remove-k-digits](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0402-remove-k-digits/) | Medium |
@@ -174,6 +176,7 @@
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0127-word-ladder/) | Hard |
 | [0200-number-of-islands](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Union-Find
