@@ -7,7 +7,7 @@ class Solution {
         ArrayDeque<Integer> leftCol = new ArrayDeque<>();
         ArrayDeque<Integer> rightCol = new ArrayDeque<>();
         ArrayDeque<ArrayDeque<Integer>> rows = new ArrayDeque<>();
-        
+
         for (int i = 0; i < rLen; i++) {
             leftCol.add(rc[i][0]);
             rightCol.add(rc[i][cLen-1]);
@@ -31,15 +31,17 @@ class Solution {
             }
         }
 
-        int[][] result = new int[rLen][cLen];
-        for (int i = 0; i < rLen; i++) {
-            result[i][0] = leftCol.removeFirst();
-            result[i][cLen-1] = rightCol.removeFirst();
+        while (!leftCol.isEmpty() && !rightCol.isEmpty()){
             ArrayDeque<Integer> tmp = rows.removeFirst();
-            for (int j = 1; j < cLen-1; j++)
-                result[i][j] = tmp.removeFirst();
+            tmp.addFirst(leftCol.removeFirst());
+            tmp.addLast(rightCol.removeFirst());
+            rows.addLast(tmp);
         }
 
-        return result;
+        return rows.stream()
+                .map(value -> value.stream()
+                        .mapToInt(Integer::intValue)
+                        .toArray())
+                .toArray(int[][]::new);
     }
 }
