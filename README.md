@@ -20,6 +20,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0022-generate-parentheses](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0127-word-ladder](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0127-word-ladder/) | Hard |
 | [0212-word-search-ii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Hard/0212-word-search-ii/) | Hard |
