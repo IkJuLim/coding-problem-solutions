@@ -117,6 +117,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0029-divide-two-integers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0029-divide-two-integers/) | Medium |
 | [0380-insert-delete-getrandom-o1](https://github.com/IkJuLim/coding-problem-solutions/tree/main/0380-insert-delete-getrandom-o1/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -197,4 +198,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/1004-max-consecutive-ones-iii/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0029-divide-two-integers](https://github.com/IkJuLim/coding-problem-solutions/tree/main/LeetCode/Medium/0029-divide-two-integers/) | Medium |
 <!---LeetCode Topics End-->
