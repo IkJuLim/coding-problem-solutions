@@ -1,23 +1,18 @@
 import java.io.*;
-import java.math.BigInteger;
 import java.util.*;
+import java.math.*;
 
 public class Main {
-    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static int N = 0;
+    private static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
 
-        // 원판의 개수 입력
-        N = Integer.parseInt(br.readLine());
+        System.out.println(BigInteger.TWO.pow(n).subtract(BigInteger.ONE));
 
-        //관계식
-        System.out.println(BigInteger.TWO.pow(N).subtract(BigInteger.ONE));
-
-        // N이 20 이하일 경우 과정 출력
-        if (N <= 20) {
-            hanoi(N, 1, 2, 3);
+        if (n <= 20) {
+            recall(n, 1, 2, 3);
         }
 
         bw.flush();
@@ -25,18 +20,14 @@ public class Main {
         br.close();
     }
 
-    // [로직] n 옮길 원판, from 시작 기둥, tmp 거쳐갈 기둥, to 도착 기둥
-    public static void hanoi(int n, int from, int tmp, int to) throws IOException{
-
-        // n == 1 일경우 바로 이동
+    private static void recall(int n, int from, int empty, int to) throws IOException {
         if (n == 1) {
-            bw.write(from + " " + to + "\n"); // 이동
+            bw.write(from + " " + to + "\n");
             return;
         }
 
-        hanoi(n - 1, from, to, tmp);
-        bw.write(from + " " + to + "\n"); // 이동
-
-        hanoi(n-1, tmp, from, to);
+        recall(n - 1, from, to, empty);
+        bw.write(from + " " + to + "\n");
+        recall(n - 1, empty, from, to);
     }
 }
