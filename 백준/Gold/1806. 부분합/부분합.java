@@ -8,7 +8,7 @@ public class Main{
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken())-1;
+        int n = Integer.parseInt(st.nextToken());
         int s = Integer.parseInt(st.nextToken());
 
         st = new StringTokenizer(br.readLine());
@@ -18,12 +18,12 @@ public class Main{
 
         while (!dq.isEmpty()) {
             if (sum >= s) {
-                answer = Math.min(answer, dq.size());
+                answer = Math.min(dq.size(), answer);
                 sum -= dq.pollFirst();
                 continue;
             }
-            if (n==0) break;
-            n--;
+            if (!st.hasMoreElements()) break;
+
             dq.addLast(Integer.parseInt(st.nextToken()));
             sum += dq.peekLast();
         }
