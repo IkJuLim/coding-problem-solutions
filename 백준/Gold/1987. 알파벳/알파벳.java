@@ -3,7 +3,7 @@ import java.util.*;
 import java.math.*;
 
 public class Main{
-    static char[][] board;
+    static String[] board;
     static Set<Character> set = new HashSet<>();
     static int r, c;
 
@@ -15,12 +15,9 @@ public class Main{
         r = Integer.parseInt(st.nextToken());
         c = Integer.parseInt(st.nextToken());
 
-        board = new char[r][c];
+        board = new String[r];
         for (int i = 0; i < r; i++) {
-            String chars = br.readLine();
-            for (int j = 0; j < chars.length(); j++) {
-                board[i][j] = chars.charAt(j);
-            }
+            board[i] = br.readLine();
         }
 
         bw.write(String.valueOf(dfs(0, 0)));
@@ -33,15 +30,15 @@ public class Main{
 
     private static int dfs(int posx, int posy) {
         if (posx < 0 || posx >= r || posy < 0 || posy >= c) return 0;
-        if (set.contains(board[posx][posy])) return 0;
+        if (set.contains(board[posx].charAt(posy))) return 0;
 
-        set.add(board[posx][posy]);
+        set.add(board[posx].charAt(posy));
         int ret = Math.max(
                 Math.max(dfs(posx, posy + 1), dfs(posx + 1, posy)),
                 Math.max(dfs(posx, posy - 1), dfs(posx - 1, posy))
         ) + 1;
 
-        set.remove(board[posx][posy]);
+        set.remove(board[posx].charAt(posy));
 
         return ret;
     }
