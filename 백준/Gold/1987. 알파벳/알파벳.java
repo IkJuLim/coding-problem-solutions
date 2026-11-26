@@ -4,7 +4,6 @@ import java.math.*;
 
 public class Main{
     static char[][] board;
-    static boolean[][] visited;
     static Set<Character> set = new HashSet<>();
     static int r, c;
 
@@ -17,7 +16,6 @@ public class Main{
         c = Integer.parseInt(st.nextToken());
 
         board = new char[r][c];
-        visited = new boolean[r][c];
         for (int i = 0; i < r; i++) {
             String chars = br.readLine();
             for (int j = 0; j < chars.length(); j++) {
@@ -36,16 +34,13 @@ public class Main{
     private static int dfs(int posx, int posy) {
         if (posx < 0 || posx >= r || posy < 0 || posy >= c) return 0;
         if (set.contains(board[posx][posy])) return 0;
-        if (visited[posx][posy]) return Integer.MIN_VALUE;
 
         set.add(board[posx][posy]);
-        visited[posx][posy] = true;
         int ret = Math.max(
                 Math.max(dfs(posx, posy + 1), dfs(posx + 1, posy)),
                 Math.max(dfs(posx, posy - 1), dfs(posx - 1, posy))
         ) + 1;
 
-        visited[posx][posy] = false;
         set.remove(board[posx][posy]);
 
         return ret;
